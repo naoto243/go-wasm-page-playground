@@ -1,3 +1,8 @@
+
+.build
+.dist
+
+#--------
 # Created by https://www.toptal.com/developers/gitignore/api/go,visualstudiocode,node,intellij+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,visualstudiocode,node,intellij+all
 
