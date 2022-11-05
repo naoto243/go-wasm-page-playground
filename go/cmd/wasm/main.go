@@ -1,3 +1,6 @@
+//go:build js && wasm
+// +build js,wasm
+
 package main
 
 import (
@@ -7,7 +10,7 @@ import (
 
 func main() {
 	c := make(chan struct{})
-	js.Global().Set("wasm", js.ValueOf(map[string]any{
+	js.Global().Set("wasmApp", js.ValueOf(map[string]any{
 		"hiraganaToKatakana": js.FuncOf(hiraganaToKatakana),
 	}))
 	<-c // 終了しないようにブロック

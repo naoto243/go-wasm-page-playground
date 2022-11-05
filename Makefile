@@ -1,4 +1,4 @@
 
 
 wasm-build:
-	 GOOS=js GOARCH=wasm go build  -o .build/main  ./go/cmd/wasm/main.go
+	GOOS=js GOARCH=wasm go build  -o frontend/public/wasm/wasmApp.wasm  ./go/cmd/wasm/main.go

@@ -2,6 +2,7 @@
 .build
 .dist
 .DS_Store
+frontend/public/wasm
 
 #--------
 # Created by https://www.toptal.com/developers/gitignore/api/go,visualstudiocode,node,intellij+all
