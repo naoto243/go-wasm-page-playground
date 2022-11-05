@@ -1,6 +1,7 @@
 
 .build
 .dist
+.DS_Store
 
 #--------
 # Created by https://www.toptal.com/developers/gitignore/api/go,visualstudiocode,node,intellij+all
